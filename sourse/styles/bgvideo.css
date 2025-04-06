@@ -1,0 +1,43 @@
+
+.bgvideo {
+    height: 65vh;
+    width: 100%;   
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgvideo video {
+    height: 70vh;
+    width: 100%;    
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.effect {
+    height: 70vh;
+    width: 100%;    
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.136);
+}
+
+.video-text {
+    font-size: 70px;
+    color: linear-gradient(270deg, #0202b9 0%, #000022 100%);
+    z-index: 2;
+}
+
+.nav-item {
+    text-shadow:
+  1px 1px 2px red,
+  0 0 1em blue,
+  0 0 0.2em blue;
+}
